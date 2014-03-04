@@ -1,2 +1,2 @@
-#!/bin.sh
-sudo puppet apply /root/puppet/manifests/sites.pp --modulepath=/root/puppet/modules/ $*
+#!/bin/sh
+puppet apply /root/puppet/manifests/site.pp --modulepath=/root/puppet/modules/ $*

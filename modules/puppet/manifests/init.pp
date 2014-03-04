@@ -1,6 +1,6 @@
 class puppet {
   file { '/usr/local/bin/papply':
-    source => 'puppet:///modules/puppet/papply.sh', 
+    source => '/root/puppet/modules/puppet/manifests/files/papply.sh', 
     mode   => '0755',
   }
 }
