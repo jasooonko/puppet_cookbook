@@ -1,3 +1,3 @@
-node 'cookbook', 'cookbook2' {
-  include puppet
+node 'cookbook','cookbook2' {
+      include memcached
 }
